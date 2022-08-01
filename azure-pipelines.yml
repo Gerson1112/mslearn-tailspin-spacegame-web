@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- Build-pipeline
+- 'Build-pipeline'
 
 pool:
-  name: Default
+  name: 'Default'
   demands:
   - npm
 
